@@ -18,5 +18,5 @@
       PERSON: "siva from play"
       WISHES: "morning from play"
     ansible.builtin.debug:
-      msg: "Hello {{person}}, Good {{wishes}}"
+      msg: "Hello {{PERSON}}, Good {{WISHES}}"
       
